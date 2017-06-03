@@ -16,7 +16,7 @@ $ git clone https://github.com/appleboy/node-less.git
 $ docker build -t appleboy/node-less .
 ```
 
-## Run
+## Run Less Command
 
 ```sh
 $ docker run --rm -v `pwd`:/app -ti appleboy/node-less styles.less > styles.css
